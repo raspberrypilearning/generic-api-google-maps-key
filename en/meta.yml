@@ -1,0 +1,14 @@
+title: Obtain a Google maps API key
+hero_image: images/banner.png
+description: How to obtain an API key to use with Google Maps
+theme: red # possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+duration: 1 # possible values: 1, 2 or 3
+listed: false
+ingredient: true
+copyedit: true
+curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
+interests: "games, jokes/pranks, music/sound, photography, physical computing, robots, space"
+technologies: "electronics, sense-hat, physical computing, html/css, scratch, python"
+site_areas:
+steps:
+  - title: Step one

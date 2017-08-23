@@ -1,3 +1,3 @@
-# generic-api-google-maps-key
+# Obtain a Google Maps API key
 
-Don't forget to update the project name in LICENSE.md
+How to obtain an API key to use with Google Maps
