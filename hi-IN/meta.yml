@@ -1,7 +1,7 @@
 ---
-title: Obtain a Google maps API key
+title: Google maps API key प्राप्त करें
 hero_image: images/banner.png
-description: How to obtain an API key to use with Google Maps
+description: Google Maps के साथ उपयोग करने के लिए API key कैसे प्राप्त करें
 theme: red #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 1 #possible values: 1, 2 or 3
 listed: false
@@ -13,4 +13,4 @@ technologies: "electronics, sense-hat, physical computing, html/css, scratch, py
 site_areas:
 steps:
   - 
-    title: Step one
+    title: पहला चरण
