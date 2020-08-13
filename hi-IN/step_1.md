@@ -1,18 +1,18 @@
-## Obtaining a Google Maps API key
+## Google maps API key प्राप्त करना
 
-An API (or Application Programming Interface) is a set of functions that allow you to interact with another computer—in this case the Google Maps server. You need to have an **API key** to access it, so that Google knows who it has allowed to use its services.
+एक API (या Application Programming Interface) फंक्शन्स​ का एक सेट है जो आपको किसी अन्य कंप्यूटर के साथ बातचीत करने की अनुमति देता है—इस मामले में Google Maps सर्वर। इसे एक्सेस करने के लिए आपके पास **API key** होना आवश्यक है, ताकि Google को पता हो कि उसने अपनी सेवाओं का उपयोग करने की अनुमति किसको दी है।
 
-- You will need to [create a Google account](https://accounts.google.com/SignUp?hl=en), or use an existing Google account, to obtain an API key. There is a minimum age requirement for creating an account which varies form country to country—please check [this page](https://support.google.com/accounts/answer/1350409?hl=en) first to see whether you are old enough.
+- आपको [Google खाता बनाने की](https://accounts.google.com/SignUp?hl=en) आवश्यकता होगी, या किसी मौजूदा Google खाते का उपयोग करें, API key प्राप्त करने के लिए। एक खाता बनाने के लिए न्यूनतम आयु की आवश्यकता है जो देश-देश में भिन्न होती है—कृपया [इस पृष्ठ](https://support.google.com/accounts/answer/1350409?hl=en) को देखें यह देखने के लिए कि क्या आपकी आयु उपयुक्त है।
 
-- Open [this page](https://developers.google.com/maps/documentation/javascript/adding-a-google-map#step_3_get_an_api_key) and, under the heading “Step 3: Get an API key”, follow the steps to obtain a Google Maps JavaScript API key.
+- [इस पृष्ठ](https://developers.google.com/maps/documentation/javascript/adding-a-google-map#step_3_get_an_api_key) को खोलें और, शीर्षक के तहत "चरण 3: एक API key प्राप्त करें", Google Maps JavaScript API Key प्राप्त करने के लिए चरणों का पालन करें।
 
-  **Note - using the API is free but you will need a credit/debit card to complete the sign up.**
+  **नोट - API का उपयोग करना नि: शुल्क है लेकिन साइन अप को पूरा करने के लिए आपको क्रेडिट/डेबिट कार्ड की आवश्यकता होगी।**
 
-- To use your API key in a HTML page, open the HTML file and locate the `</body>` tag. Paste the following code above this tag.
+- HTML पेज में अपनी API key का उपयोग करने के लिए, HTML फ़ाइल खोलें और `</body>` टैग को खोजें। इस टैग के ऊपर निम्न कोड पेस्ट करें।
 
 ```html
   <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
   </script>
 ```
-- Find the part in the code you just pasted which says `YOUR_API_KEY`, and replace it with the API key you've generated. Make sure there are no spaces between the key you paste in and the `=` and `&` characters on each side of it.
+- आपने जिस कोड को पेस्ट किया हैं उसमें वह भाग ढूंढें जो कहता है `Your_API_KEY`, और इसे आपके द्वारा उत्पन्न API key से बदल दें। सुनिश्चित करें कि आपके द्वारा पेस्ट की गई key के बीच और इसके दोनो तरफ के अक्षर `=` और `&` के बीच कोई रिक्त स्थान नहीं है।
